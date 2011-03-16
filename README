@@ -1,0 +1,20 @@
+Python code to analyse Edinburgh bus data
+-----------------------------------------
+
+Uses data from Alex Bird's API at: http://omnibus.subtlelogic.co.uk/
+
+Requires:
+---------
+
+- Joe Stump's simplexml library: https://github.com/joestump/python-simplexml
+- NumPy
+- Mayavi2 for 3D visualisation.
+
+Files:
+------
+
+common.py - contains common code for retrieving/caching data.
+
+servicestops-3d.py - 3D visualisation of stopping points/times for a service.
+
+routeguess.py - 2D visualisation and early work on route inference for a service.
